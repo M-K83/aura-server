@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+.env
+# Python / general
+.env
+.env.*
+__pycache__/
+*.pyc
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Marimo (keep these ignored)
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+.env.*
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+.DS_Store
+>>>>>>> 01c51ff (chore: initialize Aura core architecture)
