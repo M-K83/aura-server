@@ -5,8 +5,8 @@ echo "🚀 Deploying Aura..."
 
 git pull --rebase origin main
 
-docker compose --env-file .env -f infra/docker/compose.yml build
-docker compose --env-file .env -f infra/docker/compose.yml up -d
+docker compose --env-file .env.runtime -f infra/docker/compose.yml build
+docker compose --env-file .env.runtime -f infra/docker/compose.yml up -d
 
 
 echo "✅ Aura deployed successfully"
